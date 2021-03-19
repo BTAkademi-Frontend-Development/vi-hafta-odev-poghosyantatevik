@@ -59,11 +59,11 @@
   - Arrays
   - functions(arrays and functions are also objects)
            
-      The size of a reference value is dynamic so JS stores the reference value on the heap.
+  The size of a reference value is dynamic so JS stores the reference value on the heap.
       
-      Vriable that stores an object is accessed by reference.
+  Vriable that stores an object is accessed by reference.
       
-      When you assign a reference value from one variable to another, the value stored in the variable is also copied into the location of the new variable.
+  When you assign a reference value from one variable to another, the value stored in the variable is also copied into the location of the new variable.
 
 The difference is that the values stored in both variables now are the address of the actual object stored on the heap. As a result, both variables are referencing the same object.
 
@@ -80,3 +80,27 @@ console.log(a); // 'Johnson';
 - 'for in' ve 'for of' döngülerini açıklayınız ve örneklerle destekleyiniz.
 
 - 'for' ve 'while' döngüleri ile ilgili örnekler yapınız.
+
+ :dart:  **For Loop**
+ 
+ There are 3  important pieces of information separated by semicolons ;:
+ 
+-The initialization defines where to begin the loop by declaring (or referencing) the iterator variable
+-The stopping condition determines when to stop looping (when the expression evaluates to false)
+-The iteration statement updates the iterator each time the loop is completed
+
+for (let i = 0; i < 4; i ++) {
+
+};
+ 
+ **while Loop**
+ 
+ The while loop creates a loop that is executed as long as a specified condition evaluates to **true**. The loop will continue to run until the condition evaluates to **false**. The condition is specified before the loop, and usually, some variable is changed in the while loop body to determine when the loop should stop.
+ 
+ while (i < 10) {
+ 
+ detailedInfo += "The number is " + i;
+  
+  i++;
+  
+}
