@@ -27,6 +27,56 @@
 
 - JavaScript'te primitive types ve reference types kavramlarını araştırınız. Bu sınıflandırmalara dahil olan türleri sıralayınız.
 
+  :dart:  **Primitive types or values**
+  
+  - string
+  - number
+  - boolean 
+  - undefined 
+  - null
+  - symbol (ES6)
+
+
+  The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the stack.
+  When you assign a variable that stores a primitive value to another, the value stored in the variable is created and copied into the new variable.
+  
+  let x = 5;
+  
+  let y = x;
+  
+  y = 20; 
+  
+  console.log(x); // 5
+  
+  console.log(y); // 20
+  
+  
+  as **x** and **y** have no relationship, when you change the value stored in the **y** variable, the value of the **x** variable doesn’t change.
+  
+  **Reference types**
+    
+  - Objects 
+  - Arrays
+  - functions(arrays and functions are also objects)
+           
+      The size of a reference value is dynamic so JS stores the reference value on the heap.
+      
+      Vriable that stores an object is accessed by reference.
+      
+      When you assign a reference value from one variable to another, the value stored in the variable is also copied into the location of the new variable.
+
+The difference is that the values stored in both variables now are the address of the actual object stored on the heap. As a result, both variables are referencing the same object.
+
+const a = {surname: 'Adams'};
+
+const b = a;
+
+b.surname = 'Johnson';
+
+console.log(a); // 'Johnson';
+
+      
+  
 - 'for in' ve 'for of' döngülerini açıklayınız ve örneklerle destekleyiniz.
 
 - 'for' ve 'while' döngüleri ile ilgili örnekler yapınız.
