@@ -78,29 +78,35 @@ console.log(a); // 'Johnson';
       
   
 - 'for in' ve 'for of' döngülerini açıklayınız ve örneklerle destekleyiniz.
+- 
 
+ :dart:  [link added to my homework-6 repository in 3 different HTML files](https://github.com/poghosyantatevik/homework-no-6.git)
+ 
+ 
+   
 - 'for' ve 'while' döngüleri ile ilgili örnekler yapınız.
 
- :dart:  **For Loop**
+  :dart:  **For Loop**
  
- There are 3  important pieces of information separated by semicolons ;:
+  There are 3  important pieces of information separated by semicolons ;:
  
--The initialization defines where to begin the loop by declaring (or referencing) the iterator variable
--The stopping condition determines when to stop looping (when the expression evaluates to false)
--The iteration statement updates the iterator each time the loop is completed
+  -The initialization defines where to begin the loop by declaring (or referencing) the iterator variable
+  -The stopping condition determines when to stop looping (when the expression evaluates to false)
+  -The iteration statement updates the iterator each time the loop is completed
 
-for (let i = 0; i < 4; i ++) {
+  for (let i = 0; i < 4; i ++) {
 
-};
+  };
  
- **while Loop**
+  **while Loop**
  
- The while loop creates a loop that is executed as long as a specified condition evaluates to **true**. The loop will continue to run until the condition evaluates to **false**. The condition is specified before the loop, and usually, some variable is changed in the while loop body to determine when the loop should stop.
+   The while loop creates a loop that is executed as long as a specified condition evaluates to **true**. 
+   The loop will continue to run until the condition evaluates to **false**. 
+   The condition is specified before the loop, and usually, some variable is changed in the while loop body to determine when the loop should stop.
  
- while (i < 10) {
+    while (i < 10) {
  
- detailedInfo += "The number is " + i;
+    detailedInfo += "The number is " + i;
   
-  i++;
-  
+    i++;
 }
