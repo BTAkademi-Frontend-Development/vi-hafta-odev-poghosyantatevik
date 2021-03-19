@@ -2,6 +2,8 @@
 
 - JavaScript'te nesne(object) örnekleri yaratarak örnekler içerisinde metodlarla birlikte kullanmaya çalışınız.
 
+   [here is the link of my example](https://github.com/poghosyantatevik/homework-no-6/blob/9da62876d51867c88d8221334e8faf8ed8edfc9c/index4.html)
+
 - 'return' ve 'console.log' arasındaki farkı açıklayınız. Örneklerle destekleyiniz.
 
    :dart: as a matter of fact there are several differences between return and console log. To name a few: return value will not appear in console. Console.log will display the parameter in the console.  Console.log is just a print statement, all languages have something like that. When you use return it will end loop or function, so the code below it will not be executed(important to note the code in the block scope). RETURN will also allow you to use the value returned in some other part of your program.
